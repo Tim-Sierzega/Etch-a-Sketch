@@ -1,0 +1,32 @@
+  body {
+      background-image: url(images/etchasketch.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      background-position-y: .01rem;
+      background-color: #2f2f2f;
+  }
+  
+  #container {
+	position: relative;
+	top: 115px;
+	font-size: 0;
+	margin:auto;
+	height:500px;
+	width:710px;
+	padding: 0;
+    border: none;
+    display:grid;
+    grid-template-columns: repeat(24, auto);
+    grid-template-rows: repeat(1fr, auto);
+    text-align: center;
+  }
+  
+  .grid-item {
+	/* /* padding: 20px; */
+    flex: auto;
+  }
+
+  .grid-item.active {
+    background-color: #0099ff;
+  }
